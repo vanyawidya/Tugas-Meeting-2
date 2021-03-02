@@ -10,10 +10,12 @@ int main(int argc, char** argv)
 	
 	a=x+y;
 	b=x-y;
+	c=x*y;
 	
 	
 	cout<<"Hasil Penjumlahan dari X dan Y adalah : "<<a<<endl;
 	cout<<"Hasil Pengurangan dari X dan Y adalah : "<<b<<endl;
+	cout<<"Hasil Perkalian dari X dan Y adalah : "<<c<<endl;
 	
 	return 0;
 	
