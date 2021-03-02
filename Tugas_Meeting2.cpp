@@ -5,8 +5,10 @@ int main(int argc, char** argv)
 {
 	int x,y,a,b,c,d;
 
-	cout<<"Masukkan Nilai x : "<<x<<endl;
-	cout<<"Masukkan Nilai y : "<<y<<endl;
+	cout<<"Masukkan Nilai x : "<<endl;
+	cin>>x;
+	cout<<"Masukkan Nilai y : "<<endl;
+	cin>>y;
 	
 	a=x+y;
 	b=x-y;
